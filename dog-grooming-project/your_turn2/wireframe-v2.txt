@@ -1,0 +1,31 @@
+Dog Grooming Website Wireframe (Updated)
+Date: 2026-05-27
+
+Global Layout
+1. Header
+   - Business name (H1)
+   - Short tagline
+
+2. Navigation (horizontal on desktop, stacked on mobile)
+   - Home
+   - Services
+   - Pricing
+   - Contact
+
+3. Main Content
+   - Hero image and welcome text on Home page
+   - Service cards (3 columns desktop, 1 column mobile) on Services page
+   - Price table on Pricing page
+   - Contact details and image on Contact page
+
+4. Footer
+   - Copyright line
+
+Responsive Behavior
+- Images scale to available width.
+- Navigation switches from inline links to stacked links on small screens.
+- Service cards stop floating and stack vertically on small screens.
+
+Visual Direction
+- High contrast palette: deep blue, white, and yellow hover accents.
+- Clear typography and spacing for readability.

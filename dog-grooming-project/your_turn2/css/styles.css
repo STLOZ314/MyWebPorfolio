@@ -1,0 +1,277 @@
+/*
+  Name: obirg
+  Date: 2026-06-06
+  File: styles.css
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Playfair+Display:wght@700&display=swap");
+
+/* CSS reset: removes browser default margins, padding, and list spacing */
+html,
+body,
+header,
+nav,
+main,
+footer,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+section,
+article,
+div,
+img,
+video,
+table,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #f4f7fb;
+  color: #111111;
+  font-family: "Nunito", "Trebuchet MS", sans-serif;
+  line-height: 1.5;
+}
+
+#container {
+  width: 94%;
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Mobile style rules begin */
+
+/* Header styles begin */
+header {
+  background-color: #0a2f5a;
+  background-image: linear-gradient(145deg, #0a2f5a, #1767a8);
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.tagline {
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+/* Simple page-load animation for the main heading */
+@keyframes titleSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header h1 {
+  animation: titleSlideIn 0.9s ease-out;
+}
+
+.menu-toggle {
+  margin-top: 0.75rem;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  padding: 0.45rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 26px;
+  height: 3px;
+  margin: 5px 0;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+/* Nav styles begin */
+nav {
+  background-color: #0f4c81;
+  padding: 0.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: left;
+  display: none;
+}
+
+nav ul.show {
+  display: block;
+}
+
+nav li {
+  display: block;
+  margin-bottom: 0.45rem;
+}
+
+nav a {
+  color: #ffffff;
+  display: block;
+  padding: 0.75rem 0.9rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.09);
+}
+
+/* Main styles begin */
+main {
+  padding: 1rem;
+}
+
+.hero {
+  margin-bottom: 1rem;
+}
+
+.service-card {
+  width: 100%;
+  margin: 0 0 1rem;
+  padding: 0.75rem;
+  border: 2px solid #0a2f5a;
+  background-color: #eef5ff;
+  border-radius: 10px;
+}
+
+/* Keep service images the same visual size for a cleaner card layout */
+.service-card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.clear {
+  clear: both;
+}
+
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+}
+
+.price-table th,
+.price-table td {
+  border: 1px solid #1e1e1e;
+  padding: 0.65rem;
+  text-align: left;
+}
+
+.price-table th {
+  background-color: #0a2f5a;
+  color: #ffffff;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #0a2f5a;
+}
+
+/* Telephone link style for touch-friendly mobile interaction */
+.tel-link {
+  display: inline-block;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  background-color: #0f4c81;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Responsive images */
+img,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.75rem;
+}
+
+/* Hide nonessential content on small mobile screens */
+.tagline,
+.hero img,
+main > img {
+  display: none;
+}
+
+/* Footer styles begin */
+footer {
+  background-color: #0a2f5a;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.85rem;
+}
+
+/* Tablet and up: show additional content and horizontal nav */
+@media (min-width: 640px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .tagline,
+  .hero img,
+  main > img {
+    display: block;
+  }
+
+  nav ul {
+    display: block;
+    text-align: center;
+  }
+
+  nav li {
+    display: inline-block;
+    margin: 0 0.2rem;
+  }
+
+  nav a {
+    display: inline-block;
+  }
+}
+
+/* Desktop and up: dynamic pseudo-class for hover/focus states */
+@media (min-width: 900px) {
+  nav a:hover,
+  nav a:focus {
+    background-color: #ffcc00;
+    color: #111111;
+  }
+
+  .service-card {
+    float: left;
+    width: 31%;
+    margin: 0 1% 1rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .service-card {
+    float: none;
+    width: 100%;
+    margin: 0 0 1rem;
+  }
+}
