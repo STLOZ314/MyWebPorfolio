@@ -1,0 +1,208 @@
+/*
+  Name: Ozzy Birge
+  File Name: styles.css
+  Date: June 19, 2026
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, video, h1, h2, h3, p, ul, li, div, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Style rules for body and images */
+body {
+  background-color: #f6eee4;
+}
+
+img,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+/* Style rules for mobile viewport */
+
+/* Show mobile class, hide tab-desk and desktop classes */
+.tab-desk,
+.desktop,
+#nav-links {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
+
+/* Style rules for header area */
+.mobile h1,
+.mobile h3 {
+  padding: 2%;
+  text-align: center;
+}
+
+.mobile h1 {
+  font-family: "Emblema One", cursive;
+  margin: 2% 0 0 3%;
+}
+
+.mobile h3 {
+  font-family: "Lora", serif;
+}
+
+/* Style rules for navigation area */
+nav {
+  background-color: #2a1f14;
+  position: relative;
+  min-height: 52px;
+}
+
+.mobile-nav a {
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  text-decoration: none;
+  padding: 3%;
+  display: block;
+}
+
+.mobile-nav a.nav-icon {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #f6eee4;
+  padding: 2%;
+}
+
+.nav-icon div {
+  height: 40px;
+  width: 40px;
+  color: #2a1f14;
+}
+
+/* Style rules for main content */
+main {
+  padding: 2%;
+  font-family: "Lora", serif;
+}
+
+main p {
+  font-size: 1.25em;
+}
+
+main h1,
+main h3 {
+  padding-top: 2%;
+}
+
+main ul {
+  list-style-type: square;
+  margin-left: 10%;
+}
+
+.link {
+  color: #4d3319;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.action {
+  font-size: 1.75em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.round {
+  border-radius: 6px;
+}
+
+#contact {
+  text-align: center;
+}
+
+.tel-link {
+  background-color: #2a1f14;
+  padding: 2%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tel-link a {
+  color: #f6eee4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#questions p {
+  cursor: pointer;
+  margin: 2% 0;
+}
+
+#answer {
+  text-align: center;
+  font-weight: bold;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#answer h2 {
+  display: none;
+}
+
+/* Style rules for footer content */
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  background-color: #2a1f14;
+  color: #f6eee4;
+  padding: 1% 0;
+}
+
+footer a {
+  color: #f3e6d8;
+  text-decoration: none;
+}
+
+/* Tablet Viewport: style rules */
+@media (min-width: 620px) {
+  .tab-desk,
+  .desktop {
+    display: block;
+  }
+
+  .mobile,
+  .mobile-nav {
+    display: none;
+  }
+
+  /* Tablet nav area style rules */
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  nav li a {
+    display: block;
+    color: #f6eee4;
+    padding: 0.5em 2em;
+    text-decoration: none;
+  }
+}
+
+/* Desktop Viewport: style rules */
+@media (min-width: 900px) {
+  nav li a:hover {
+    opacity: 0.85;
+  }
+}

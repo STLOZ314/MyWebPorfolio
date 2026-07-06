@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+  Name: Ozzy Birge
+  File Name: lessons.html
+  Date: June 19, 2026
+-->
+<html lang="en">
+<head>
+  <title>Strike a Chord: Lessons</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <div id="menu-links">
+      <a href="index.html">Home</a>
+      <a href="lessons.html">Lessons</a>
+      <a href="instructors.html">Instructors</a>
+      <a href="rentals.html">Rentals</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <a class="menu-icon" onclick="hamburger()">
+      <div>&#9776;</div>
+    </a>
+  </nav>
+
+  <header>
+    <h1><span class="tab-desk">&#9836;</span> Strike a Chord <span class="tab-desk">&#9836;</span></h1>
+  </header>
+
+  <nav class="tab-desk" aria-label="Primary navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="lessons.html">Lessons</a></li>
+      <li><a href="instructors.html">Instructors</a></li>
+      <li><a href="rentals.html">Rentals</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero image -->
+  <div id="hero" class="tab-desk"></div>
+
+  <!-- Use the main area to add the main content to the webpage -->
+  <main>
+
+    <div id="info">
+      <h2>Music Lessons</h2>
+      <p>Strike a Chord offers lessons for piano, guitar, and violin. We offer lessons for all skill levels, from beginners to advanced students. Our experienced instructors are dedicated to helping you reach your musical goals. Your first two lessons are FREE!</p>
+    </div>
+
+    <div id="piano">
+      <img src="images/piano-lesson.jpg" alt="piano lesson" class="round">
+      <h3>Piano Lessons</h3>
+      <p>Our piano lessons are available for students of all ages and skill levels. Whether you are a complete beginner or an experienced pianist, our instructors will help you develop your technique and musicianship. Lessons are available in 30- and 60-minute sessions.</p>
+
+
+      <h4>Piano Spring Performance</h4>
+      <audio controls>
+        <source src="media/piano.mp3" type="audio/mp3">
+        <source src="media/piano.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div id="guitar">
+      <img src="images/child-guitar.jpg" alt="child guitar lesson" class="round">
+      <h3>Guitar Lessons</h3>
+      <p>Learn to play acoustic or electric guitar with one of our skilled instructors. We teach all styles, including classical, rock, pop, and blues. Guitar lessons are available for children and adults, beginners through advanced. Lessons are available in 30- and 60-minute sessions.</p>
+
+
+      <h4>Guitar Winter Performance</h4>
+      <audio controls>
+        <source src="media/guitar.mp3" type="audio/mp3">
+        <source src="media/guitar.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div id="violin">
+      <img src="images/woman-violin.jpg" alt="woman violin lesson" class="round">
+      <h3>Violin Lessons</h3>
+      <p>Our violin instructors bring years of professional performance and teaching experience. We offer lessons for students of all ages and levels, from first-time players to advanced musicians. Lessons are available in 30- and 60-minute sessions.</p>
+
+
+      <h4>Violin Spring Performance</h4>
+      <audio controls>
+        <source src="media/violin.mp3" type="audio/mp3">
+        <source src="media/violin.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; Copyright 2026. All Rights Reserved.</p>
+    <p>Email: <a href="mailto:lessons@strikeachord.net">lessons@strikeachord.net</a></p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>

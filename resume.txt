@@ -1,0 +1,17 @@
+Robert Birge
+
+Resume Summary
+Front-end focused developer with coursework and project experience in HTML, CSS, JavaScript, responsive design, and GitHub-based workflows.
+
+Education
+Web development coursework focused on semantic HTML, layout systems, accessibility basics, debugging, and deployment.
+
+Skills
+HTML, CSS, JavaScript, responsive design, accessibility basics, GitHub, mobile-first layout planning, and content organization.
+
+Projects
+Portfolio website demonstrating responsive design, personal branding, and structured content sections.
+Additional coursework projects can be linked from the portfolio as they are completed.
+
+Experience
+Project-based learning experience creating websites, refining UI details, and presenting work in a professional format.
