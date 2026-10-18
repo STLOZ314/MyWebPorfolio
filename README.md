@@ -1,41 +1,23 @@
-# MyWebPorfolio
+# Robert Birge — Web Developer Portfolio
 
-Modern personal web portfolio for the assignment.
+A responsive, accessible personal portfolio built with HTML, CSS, and JavaScript.
 
-## What is included
+## Live site
 
-- Responsive single-page portfolio layout
-- About Me, Resume, skills, coursework, portfolio, and contact sections
-- Mobile-friendly navigation and accessible structure
-- Built from scratch with HTML, CSS, JavaScript, and Bootstrap
-- GitHub Pages-ready static files
-- Interactive resume page and downloadable text resume
-- Working contact form that opens a prefilled email draft
+https://stloz314.github.io/MyWebPorfolio/
 
-## Customize it
+## Highlights
 
-Update the placeholder details in [index.html](index.html) with:
-
-- Your name
-- Your email address
-- Your LinkedIn profile URL
-- Your GitHub profile URL
-- Your actual project descriptions and links
-- Your final GitHub Pages URL after deployment
+- About section describing my path into web development and how I approach learning.
+- Skills section covering the technologies I am learning and using in projects.
+- Issue Tracker case study with the problem, my role, technologies and features, and next steps.
+- Contact links for email, LinkedIn, and GitHub.
+- Responsive layouts, mobile navigation, skip link, keyboard focus indicators, and reduced-motion support.
 
 ## Run locally
 
-Open [index.html](index.html) in your browser, or use VS Code Live Server if you have it installed.
+Open `index.html` in a browser, or use a local static file server from this directory.
 
-## Deploy to GitHub Pages
+## Deployment
 
-1. Push this repository to GitHub.
-2. In GitHub, open repository settings.
-3. Go to Pages.
-4. Set the source branch to `main` and the folder to `/root`.
-5. Save, then wait for the Pages URL to appear.
-
-## Notes for the assignment
-
-- Replace the placeholder email and LinkedIn links before submission.
-- Add screenshots or extra projects later if your instructor wants more evidence of growth.
+The static site is hosted on GitHub Pages from the root of the `main` branch.
