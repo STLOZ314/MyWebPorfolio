@@ -6,6 +6,14 @@ A responsive, accessible personal portfolio built with HTML, CSS, and JavaScript
 
 https://stloz314.github.io/MyWebPorfolio/
 
+## Public checkpoint
+
+Snapshot of the portfolio for review:
+
+https://stloz314.github.io/MyWebPorfolio/checkpoint/
+
+This is a frozen copy of the review checkpoint; the live site may continue to change.
+
 ## Highlights
 
 - About section describing my path into web development and how I approach learning.
